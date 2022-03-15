@@ -1,0 +1,56 @@
+name: DCLSx3_setting1
+suffix: ~  # add suffix to saved images
+model: blind
+distortion: sr
+scale: 3
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+gpu_ids: [0]
+pca_matrix_path: ../../../pca_matrix/DCLS/pca_matrix.pth
+
+datasets:
+
+  test1:
+    name: Set5
+    mode: LQGT
+    dataroot_GT: /data/dataset/research/setting1/Set5/x3HRblur.lmdb
+    dataroot_LQ: /data/dataset/research/setting1/Set5/x3LRblur.lmdb
+
+  test2:
+    name: Set14
+    mode: LQGT
+    dataroot_GT: /data/dataset/research/setting1/Set14/x3HRblur.lmdb
+    dataroot_LQ: /data/dataset/research/setting1/Set14/x3LRblur.lmdb
+
+  test3:
+    name: BSDS100
+    mode: LQGT
+    dataroot_GT: /data/dataset/research/setting1/B100/x3HRblur.lmdb
+    dataroot_LQ: /data/dataset/research/setting1/B100/x3LRblur.lmdb
+
+
+  test4:
+    name: Urban100
+    mode: LQGT
+    dataroot_GT: /data/dataset/research/setting1/urban100/x3HRblur.lmdb
+    dataroot_LQ: /data/dataset/research/setting1/urban100/x3LRblur.lmdb
+
+
+  test5:
+    name: Manga109
+    mode: LQGT
+    dataroot_GT: /data/dataset/research/setting1/Manga109/x3HRblur.lmdb
+    dataroot_LQ: /data/dataset/research/setting1/Manga109/x3LRblur.lmdb
+
+#### network structures
+network_G:
+  which_model_G: DCLS
+  setting:
+    nf: 64
+    nb: 10
+    ng: 5
+    input_para: 256
+    kernel_size: 21
+
+#### path
+path:
+  pretrain_model_G: ./pretrained_models/DCLSx3_setting1.pth

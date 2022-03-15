@@ -1,0 +1,30 @@
+name: DCLSx2_setting2
+suffix: ~  # add suffix to saved images
+model: blind
+distortion: sr
+scale: 2
+crop_border: ~  # crop border when evaluation. If None(~), crop the scale pixels
+gpu_ids: [0]
+pca_matrix_path: ../../../pca_matrix/DCLS/pca_aniso_matrix_x2.pth
+
+datasets:
+
+  test0:
+    name: DIV2KRK
+    mode: LQGT
+    dataroot_GT: /data/dataset/research/setting2/DIV2KRK/HRblur.lmdb
+    dataroot_LQ: /data/dataset/research/setting2/DIV2KRK/x2LRblur.lmdb
+
+#### network structures
+network_G:
+  which_model_G: DCLS
+  setting:
+    nf: 64
+    nb: 10
+    ng: 5
+    input_para: 256
+    kernel_size: 11
+
+#### path
+path:
+  pretrain_model_G: ./pretrained_models/DCLSx2_setting2.pth

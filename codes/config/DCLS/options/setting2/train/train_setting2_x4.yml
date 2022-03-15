@@ -1,0 +1,78 @@
+#### general settings
+name: DCLSx4_setting2
+use_tb_logger: true
+model: blind
+distortion: sr
+scale: 4
+gpu_ids: [0, 1, 2, 3]
+pca_matrix_path: ../../../pca_matrix/DCLS/pca_aniso_matrix_x4.pth
+
+degradation:
+  random_kernel: True
+  ksize: 31
+  code_length: 10
+  sig_min: 0.6
+  sig_max: 5
+  rate_iso: 0
+  random_disturb: true
+
+#### datasets
+datasets:
+  train:
+    name: DIV2K
+    mode: GT
+    dataroot_GT: /data/dataset/research/DIV2K_Flickr2K/HR.lmdb
+
+    use_shuffle: true
+    n_workers: 8  # per GPU
+    batch_size: 64
+    GT_size: 256
+    LR_size: 64
+    use_flip: true
+    use_rot: true
+    color: RGB
+  val:
+    name: DIV2KRK
+    mode: LQGT
+    dataroot_GT: /data/dataset/research/setting2/DIV2KRK/HRblur.lmdb
+    dataroot_LQ: /data/dataset/research/setting2/DIV2KRK/x4LRblur.lmdb
+
+#### network structures
+network_G:
+  which_model_G: DCLS
+  setting:
+    nf: 64
+    nb: 10
+    ng: 5
+    input_para: 256
+    kernel_size: 31
+
+#### path
+path:
+  pretrain_model_G: ~
+  strict_load: true
+  resume_state: ~
+
+#### training settings: learning rate scheme, loss
+train:
+  lr_G: !!float 4e-4
+  lr_E: !!float 4e-4
+  lr_scheme: MultiStepLR
+  beta1: 0.9
+  beta2: 0.99
+  niter: 500000
+  warmup_iter: -1  # no warm up
+  lr_steps: [200000, 400000]
+  lr_gamma: 0.5
+  eta_min: !!float 1e-7
+
+  pixel_criterion: l1
+  pixel_weight: 1.0
+
+  manual_seed: 0
+  val_freq: !!float 2e3
+
+#### logger
+logger:
+  print_freq: 20
+  save_checkpoint_freq: !!float 2e3

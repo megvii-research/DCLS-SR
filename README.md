@@ -100,7 +100,7 @@ The following is a BibTeX reference.
 @article{luo2022deep,
   title={Deep Constrained Least Squares for Blind Image Super-Resolution},
   author={Luo, Ziwei and Huang, Haibin and Yu, Lei and Li, Youwei and Fan, Haoqiang and Liu, Shuaicheng},
-  journal={arXiv preprint arXiv:2202.07508},
+  journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2022}
 }
 ```

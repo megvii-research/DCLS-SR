@@ -2,9 +2,8 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-constrained-least-squares-for-blind/blind-super-resolution-on-div2krk-2x)](https://paperswithcode.com/sota/blind-super-resolution-on-div2krk-2x?p=deep-constrained-least-squares-for-blind) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-constrained-least-squares-for-blind/blind-super-resolution-on-div2krk-4x)](https://paperswithcode.com/sota/blind-super-resolution-on-div2krk-4x?p=deep-constrained-least-squares-for-blind)
 
 ## Deep Constrained Least Squares for Blind Image Super-Resolution
-[[Paper](https://arxiv.org/pdf/2202.07508)]
 
-This is the official implementation of 'Deep Constrained Least Squares for Blind Image Super-Resolution', CVPR 2022.    
+This is the official implementation of 'Deep Constrained Least Squares for Blind Image Super-Resolution', CVPR 2022. [[Paper](https://arxiv.org/pdf/2202.07508)]   
 
 
 ### Updates

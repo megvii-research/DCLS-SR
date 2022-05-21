@@ -1,3 +1,4 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-constrained-least-squares-for-blind/blind-super-resolution-on-div2krkx2)](https://paperswithcode.com/sota/blind-super-resolution-on-div2krkx2?p=deep-constrained-least-squares-for-blind), [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-constrained-least-squares-for-blind/blind-super-resolution-on-div2krkx4)](https://paperswithcode.com/sota/blind-super-resolution-on-div2krkx4?p=deep-constrained-least-squares-for-blind)
 
 ## Deep Constrained Least Squares for Blind Image Super-Resolution
 [[Paper](https://arxiv.org/pdf/2202.07508)]

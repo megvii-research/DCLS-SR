@@ -99,10 +99,11 @@ If our code helps your research or work, please consider citing our paper.
 The following is a BibTeX reference.
 
 ```
-@article{luo2022deep,
-  title={Deep Constrained Least Squares for Blind Image Super-Resolution},
+@inproceedings{luo2022deep,
+  title={Deep constrained least squares for blind image super-resolution},
   author={Luo, Ziwei and Huang, Haibin and Yu, Lei and Li, Youwei and Fan, Haoqiang and Liu, Shuaicheng},
-  journal={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={17642--17652},
   year={2022}
 }
 ```

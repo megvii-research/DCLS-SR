@@ -9,7 +9,7 @@ This is the official implementation of 'Deep Constrained Least Squares for Blind
 
 ### Updates
 [**2022.04.22**] We won the 1st place in NTIRE 2022 BurstSR Challenge again [[Paper]](https://arxiv.org/abs/2204.08332)[[Code]](https://github.com/Algolzw/BSRT).     
-[**2022.03.09**] We released the code and provided the pretrained model weights [[here]](https://drive.google.com/drive/folders/135xCCLWSylBaNxh6B3I_UnCeox8AkVzC?usp=sharing).  
+[**2022.03.09**] We released the code and provided the **pretrained model weights** [[here]](https://drive.google.com/drive/folders/135xCCLWSylBaNxh6B3I_UnCeox8AkVzC?usp=sharing).  
 [**2022.03.02**] Our paper has been accepted by CVPR 2022.
 
 

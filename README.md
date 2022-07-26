@@ -12,8 +12,7 @@
 
 
 
-This is the official implementation of 'Deep Constrained Least Squares for Blind Image Super-Resolution', CVPR 2022.   
-[[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Luo_Deep_Constrained_Least_Squares_for_Blind_Image_Super-Resolution_CVPR_2022_paper.pdf)]   
+#### This is the official implementation of 'Deep Constrained Least Squares for Blind Image Super-Resolution', CVPR 2022. [[Paper](https://openaccess.thecvf.com/content/CVPR2022/papers/Luo_Deep_Constrained_Least_Squares_for_Blind_Image_Super-Resolution_CVPR_2022_paper.pdf)]   
 
 
 ### Updates

@@ -1,4 +1,11 @@
-## Deep Constrained Least Squares for Blind Image Super-Resolution
+# <center> Deep Constrained Least Squares for Blind Image Super-Resolution
+
+<h4 align="center">Ziwei Luo$^1$, Haibin Huang$^2$, Lei Yu$^1$, Youwei Li$^1$, Haoqiang Fan$^1$, Shuaicheng Liu$^3$</center>
+<h4 align="center">1. Megvii Research, 2. Kuaishou Technology</center>
+<h4 align="center">3. University of Electronic Science and Technology of China</center> <br><br>
+
+
+
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-constrained-least-squares-for-blind/blind-super-resolution-on-div2krk-2x)](https://paperswithcode.com/sota/blind-super-resolution-on-div2krk-2x?p=deep-constrained-least-squares-for-blind) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/deep-constrained-least-squares-for-blind/blind-super-resolution-on-div2krk-4x)](https://paperswithcode.com/sota/blind-super-resolution-on-div2krk-4x?p=deep-constrained-least-squares-for-blind)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=megvii-research/DCLS-SR) 

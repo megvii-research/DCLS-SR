@@ -1,6 +1,6 @@
 ## [CVPR2022] Deep Constrained Least Squares for Blind Image Super-Resolution
 
-<h4 align="center">Ziwei Luo$^1$, Haibin Huang$^2$, Lei Yu$^1$, Youwei Li$^1$, Haoqiang Fan$^1$, Shuaicheng Liu$^3$</center>
+<h4 align="center">Ziwei Luo<sup>1</sup>, Haibin Huang<sup>2</sup>, Lei Yu<sup>1</sup>, Youwei Li<sup>1</sup>, Haoqiang Fan<sup>1</sup>, Shuaicheng Liu<sup>3</sup></center>
 <h4 align="center">1. Megvii Research, 2. Kuaishou Technology</center>
 <h4 align="center">3. University of Electronic Science and Technology of China</center> <br><br>
 
